@@ -251,7 +251,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define BOOTMAGIC_LITE_ROW 0
 // #define BOOTMAGIC_LITE_COLUMN 0
 
-// #define SPLIT_USB_DETECT
+#define USE_SERIAL
+#define SPLIT_USB_DETECT
+#define EE_HANDS
 #define ENCODERS_PAD_A { D2 }
 #define ENCODERS_PAD_B { D3 }
 #define ENCODER_RESOLUTION 4
